@@ -18,20 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Group.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Student.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Group.h" />
-    <ClInclude Include="Student.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{71b8565e-70f0-4dbb-b712-e45c8a881320}</ProjectGuid>
-    <RootNamespace>Multiplprojectfiles</RootNamespace>
+    <ProjectGuid>{973833f9-f325-4f34-8fe3-c8e7a6e802f7}</ProjectGuid>
+    <RootNamespace>Multipleprojectfiles</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -135,6 +126,15 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Group.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Student.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Group.h" />
+    <ClInclude Include="Student.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
